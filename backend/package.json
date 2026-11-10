@@ -1,0 +1,38 @@
+{
+  "name": "gonullu-platformu-backend",
+  "version": "1.0.0",
+  "description": "Gönüllü Organizasyon Platformu Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^7.5.0",
+    "firebase-admin": "^13.4.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "4.1",
+    "mongoose": "^8.14.3",
+    "nodemailer": "^7.0.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "volunteer",
+    "organization",
+    "nodejs"
+  ],
+  "author": "İrem BADAK & Nur Efşan EZİCİ",
+  "license": "ISC"
+}
